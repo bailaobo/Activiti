@@ -63,6 +63,20 @@
 		<activiti.osgi.include.resource>{maven-resources}</activiti.osgi.include.resource>
 		<activiti.osgi.embed></activiti.osgi.embed>
 	</properties>
+	<repositories>
+        <repository>
+            <id>nexus</id>
+            <name>local private nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <id>nexus</id>
+            <name>local private nexus</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </pluginRepository>
+    </pluginRepositories>
 
 	<dependencyManagement>
 		<dependencies>
