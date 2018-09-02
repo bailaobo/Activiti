@@ -88,7 +88,7 @@ activitiApp.controller('LandingController', ['$scope','$window', '$location', '$
                     }
 
                     if(index >= 0) {
-                        $scope.model.apps.splice(index, 1);
+                        $scope. model.apps.splice(index, 1);
                     }
                 });
             }
